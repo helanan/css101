@@ -1,3 +1,56 @@
-li {
-	display: none;
+body {
+	font-family: 'Lato', sans-serif;
+	margin-right: 5%;
+	padding: 5%;
+	background-image: url("http://res.cloudinary.com/emma/image/upload/v1484705806/DD-Old-Wood-Background-22009-Edited_hus0og.jpg");
 }
+
+#title {
+	text-align: center;
+}
+
+#title:hover {
+	text-align: center;
+	box-shadow: 0 0 3pt 2pt #EBEBD3;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Yellowtail', cursive;
+	font-size: 5em;
+}
+
+li	{
+	list-style: none;
+}
+
+ul li img{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 30%;
+	width: 20em;
+	float: left;
+}
+
+img {
+	border-radius: 200px;
+	margin: 2%;
+	align-content: left;
+	float: left;
+	width: 100px;
+}
+
+img:hover {
+	box-shadow: 0 0 3pt 2pt #EBEBD3;
+	opacity: 20%;
+}
+
+article {
+	margin: 1.5%;
+}
+
+p {
+	margin: 2%;
+}
+
