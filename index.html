@@ -7,7 +7,13 @@
 <title>About Us</title>  
 </head>  
 <body>  
-<nav></nav>
+<nav>
+	<ul>
+		<li>Home</li>
+		<li>My Student List</li>
+		<li>Teacher Dashboard</li>
+	</ul>
+</nav>
 <h1>About Us</h1>
 	<article>
 		<h1>Where We Started</h1>
@@ -22,6 +28,13 @@
 	<article>
 		<h3>The Team</h3>
 			<p>Instead, use the accept attribute of the specific <input> element. ... autocomplete HTML5: Indicates whether input elements can by default have ... method: The HTTP method that the browser uses to submit the form.</p>
+			<ol>
+				<li><img src="http://res.cloudinary.com/emma/image/upload/v1483419142/001c6ed_teuigl.jpg" alt="Zoe Ames"></li>
+				<li><img src="http://res.cloudinary.com/emma/image/upload/v1483419130/Steven_zb3mw5.jpg" alt="Steven"></li>
+				<li><img src="http://res.cloudinary.com/emma/image/upload/v1483033586/amy_ijaqeg.jpg" alt="Amy Radar"></li>
+				<li><img src="http://res.cloudinary.com/emma/image/upload/v1483091259/Ryan_s7lp9b.jpg" alt="Ryan Belcher"></li>
+				<li><img src="http://res.cloudinary.com/emma/image/upload/v1483419129/Evan_spiymb.jpg" alt="Zoe Ames"></li>
+			</ol>
 	</article>
 
 	<article>
@@ -33,9 +46,49 @@ Read more: http://html.com/attributes/form-method/#ixzz4W4Kwpnan</p>
 
 	<article>
 		<h5>Contact Us</h5>
-		<p>When data is sent using POST, submitting the form twice will result in a duplicated entry. This can be a problem if the form is linked to a membership, purchase, or other one-time action. This is why users cannot bookmark the results of a form submission if the method is POST. Read more: http://html.com/attributes/form-method/#ixzz4W4L26f5a</p>
+			<p>When data is sent using POST, submitting the form twice will result in a duplicated entry. This can be a problem if the form is linked to a membership, purchase, or other one-time action. This is why users cannot bookmark the results of a form submission if the method is POST. Read more: http://html.com/attributes/form-method/#ixzz4W4L26f5a</p>
 	</article>
-<a href="www.helanan.com" alt="Helana's Website"></a>
+<a href="www.helanan.com" alt="Helana's Website">Other Website</a><br><br>
+	<form action="index_submit" method="get" accept-charset="utf-8">
+		<fieldset>
+			<legend>Contact Us</legend>
+		
+		<label for="Mr.">Mr. <input type="checkbox" name="Mr." value="Mr."></label>
+		<label for="Mrs.">Mrs. <input type="checkbox" name="Mrs." value="Mrs."></label><br>
+		<label for="name">First Name: </label>
+		<label for="name">Last Name: </label><br><br>
+
+		<label for="prefernces">Email Preferences: </label><br>
+		<label for="preferences">Daily<input type="radio" name="email" value="Daily" placeholder="Daily"></label>
+		<label for="preferences">Weekly<input type="radio" name="email" value="Weekly" placeholder="Weekly"></label>
+		<label for="preferences">Monthly<input type="radio" name="email" value="Monthly" placeholder="Monthly"></label>
+	</fieldset>
+<br><br>
+	<fieldset>
+		<legend>Subscribe To Our Newsletter:</legend><br>
+
+		<label>Info:</label><br>
+		<input type="password" name="" placeholder="Email" required><br>
+		<input type="text" name="" placeholder="First"><br>
+		<input type="text" name="" placeholder="Last"><br>
+		<input type="text" name="" placeholder="phone number"><br><br>
+		
+
+		<label for="email">Email Preferences</label><br>
+		<select name="email" multiple> 
+			<option value="news">News</option>
+			<option value="volunteering">Volunteering</option>
+			<option value="school_closing">School Closing</option>
+			<option value="email_type">Annual Giving</option>
+		</select><br><br>
+
+		<label for="comments">Comments</label><br>
+		<textarea name="comments"></textarea><br><br>
+		<button type="submit">Submit</button>
+
+	</fieldset>
+	</form>
+
 <footer>
 	Copyright Helana Nosratbakhsh
 </footer>
